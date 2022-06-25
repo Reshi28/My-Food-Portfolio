@@ -1,0 +1,107 @@
+body
+{
+    text-align: center;
+    background: linear-gradient( #A32CC4 0%,#A45EE5 50%,#B65FcF 100%);
+}
+img
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#myname1
+{
+   font-family: 'Courgette', cursive;
+   font-size: 45px;
+}
+#myname2
+{
+   font-family: 'Pacifico', cursive;
+   font-size: 18px;
+   color: black;
+}
+#Favorite_food
+{
+  padding:40px;
+  text-align:center;
+}
+h1
+{
+  font-size: 20px;
+}
+p
+{
+  font-size:18px;
+  color:#6A1B9A;
+}
+#contact
+{
+  font-size: 20px;
+  color: aqua;
+}
+.fa-envelope
+{
+  color: aqua;
+}
+.line
+{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+.menu
+{
+   list-style: none;
+   font-family:cursive;
+   float:right;
+   top:10px;
+   right:30px;
+   cursor: pointer;
+   color:black;
+   font-size: 20px;
+}
+.menu a
+{
+    color:black !important;
+}
+.link
+{
+    color:crimson;
+    display: inline;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom: 5px;
+}
+.link:hover
+{
+    background-color:beige;
+}
+#picture
+{
+    width: 350px;;
+    height:300px;
+    border-radius:0%;
+    margin:20px;
+}
+#picture1
+{
+    width: 300px;;
+    height: 300px;
+    border-radius:0%;
+    margin:20px;
+}
+.food
+{
+  padding-top:20px;
+}
+img 
+{
+  transition: transform .2s;
+  border: 10px solid #AAAAAA;
+}
+img:hover
+{
+  transform: scale(0.9);
+}
